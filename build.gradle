@@ -12,13 +12,13 @@
  *  limitations under the License.
  *  ***************************************************************************
  */
-group 'com.epam.dep.esp'
-version version
-
 plugins {
     id "org.sonarqube" version "2.7.1"
     id 'jacoco'
 }
+
+group 'com.epam.dep.esp'
+version version
 
 apply plugin: 'java'
 apply plugin: 'groovy'
