@@ -1,3 +1,6 @@
+addons:
+  sonarcloud:
+    organization: "a-samuta"
 language:
   java
 
@@ -8,3 +11,6 @@ sudo: false
 
 notifications:
   email: false
+
+script:
+  - gradle sonarqube
