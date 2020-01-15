@@ -15,6 +15,11 @@
 group 'com.epam.dep.esp'
 version version
 
+plugins {
+    id "org.sonarqube" version "2.7.1"
+    id 'jacoco'
+}
+
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'maven'
